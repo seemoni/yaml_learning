@@ -1,5 +1,5 @@
  
-#Update the YAML file to represent the Projects assigned to Jacob. Remember Jacob works on Multiple projects - Automation and Support. So remember to use a list.
+# Update the YAML file to include Jacob's pay slips. Add a new property "Payslips" and create a list of pay slip details. Each payslip detail contains Month and Wage.
 
 Employee:
   name: jacob
@@ -9,3 +9,10 @@ Employee:
   projects:
     - automation
     - support
+  payslips:
+    - month: June
+      wage: 4000
+    - month: july
+      wage: 4500
+    - month: august
+      wage: 4000
