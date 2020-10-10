@@ -1,5 +1,11 @@
+ 
+#Update the YAML file to represent the Projects assigned to Jacob. Remember Jacob works on Multiple projects - Automation and Support. So remember to use a list.
+
 Employee:
   name: jacob
   sex: male
   age: 30
   title: system engineer
+  projects:
+    - automation
+    - support
